@@ -6,6 +6,7 @@
     "command": "mediawriter",
     "rename-appdata-file": "mediawriter.appdata.xml",
     "rename-desktop-file": "mediawriter.desktop",
+    "rename-icon": "mediawriter",
     "finish-args": [
         "--socket=x11",
         "--device=dri",
