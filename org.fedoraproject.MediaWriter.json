@@ -24,7 +24,8 @@
                 {
                     "type": "git",
                     "url": "http://github.com/MartinBriza/MediaWriter",
-                    "commit": "53fc166074667456b48b50f282c4d39a9b7887c3"
+                    "commit": "9f796e6b0283fadca0959e1637beb1e13c8d6f8e",
+                    "tag": "4.1.5"
                 }
             ]
         }
