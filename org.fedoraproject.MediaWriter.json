@@ -23,7 +23,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "http://github.com/MartinBriza/MediaWriter",
+                    "url": "https://github.com/MartinBriza/MediaWriter",
                     "tag": "4.1.5"
                 }
             ]
