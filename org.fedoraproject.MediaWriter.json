@@ -21,8 +21,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/FedoraQt/adwaita-qt.git",
-                    "branch": "adwaita-lib"
+                    "url": "https://github.com/FedoraQt/adwaita-qt.git"
                 },
                 {
                     "type": "shell",
