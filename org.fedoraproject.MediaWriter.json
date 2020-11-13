@@ -38,7 +38,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/MartinBriza/MediaWriter",
-                    "branch": "qqc2"
+                    "branch": "4.1.80"
                 },
                 {
                     "type": "shell",
