@@ -4,9 +4,6 @@
     "runtime-version": "5.15",
     "sdk": "org.kde.Sdk",
     "command": "mediawriter",
-    "rename-appdata-file": "mediawriter.appdata.xml",
-    "rename-desktop-file": "mediawriter.desktop",
-    "rename-icon": "mediawriter",
     "finish-args": [
         "--socket=x11",
         "--socket=wayland",
@@ -24,7 +21,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/MartinBriza/MediaWriter",
-                    "tag": "4.1.6"
+                    "tag": "4.1.7"
                 }
             ]
         }
