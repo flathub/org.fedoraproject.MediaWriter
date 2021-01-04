@@ -21,7 +21,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/MartinBriza/MediaWriter",
-                    "tag": "4.1.7"
+                    "tag": "cbe15ac385b93104b749a753f282403019a461ee"
                 }
             ]
         }
