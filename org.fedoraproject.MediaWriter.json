@@ -14,6 +14,11 @@
         "--system-talk-name=org.freedesktop.UDisks2",
         "--env=QML2_IMPORT_PATH=/app/lib/qt5/qml"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/pkgconfig"
+    ],
     "modules": [
         {
             "name": "Adwaita-qt",
