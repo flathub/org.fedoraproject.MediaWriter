@@ -39,7 +39,7 @@
         },
         {
             "name": "MediaWriter",
-            "buildsystem": "qmake",
+            "buildsystem": "cmake",
             "sources": [
                 {
                     "type": "git",
