@@ -26,7 +26,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/FedoraQt/adwaita-qt.git"
+                    "url": "https://github.com/FedoraQt/adwaita-qt.git",
+                    "tag": "4.1.2"
                 },
                 {
                     "type": "shell",
@@ -43,12 +44,13 @@
                 {
                     "type": "git",
                     "url": "https://github.com/MartinBriza/MediaWriter",
-                    "tag": "4.2.0"
+                    "branch": "4.2"
                 },
                 {
                     "type": "shell",
                     "commands": [
-                        "sed -i 's@\$\$\\[QT_INSTALL_QML\\]@/app/lib/qt5/qml@' theme/theme.pro"
+                        "rm -rf app/data/icons/hicolor/1024x1024",
+                        "sed -i 's@\${QT_INSTALL_QML}@/app/lib/qt5/qml@' theme/CMakeLists.txt"
                     ]
                 }
             ]
