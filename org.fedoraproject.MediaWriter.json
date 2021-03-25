@@ -27,7 +27,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/FedoraQt/adwaita-qt.git",
-                    "tag": "4.1.2"
+                    "tag": "1.2.1"
                 },
                 {
                     "type": "shell",
