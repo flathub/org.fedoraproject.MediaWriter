@@ -42,14 +42,13 @@
             "buildsystem": "cmake",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://github.com/MartinBriza/MediaWriter",
-                    "branch": "4.2"
+                    "type": "archive",
+                    "url": "https://github.com/FedoraQt/MediaWriter/archive/refs/tags/4.2.2.tar.gz",
+                    "sha256": "c2b24059a7b4ae755e117a01e526e9858178d61f71e8b5318ad756ddae21fe3c"
                 },
                 {
                     "type": "shell",
                     "commands": [
-                        "rm -rf app/data/icons/hicolor/1024x1024",
                         "sed -i 's@\${QT_INSTALL_QML}@/app/lib/qt5/qml@' theme/CMakeLists.txt"
                     ]
                 }
