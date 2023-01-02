@@ -1,7 +1,7 @@
 {
     "id": "org.fedoraproject.MediaWriter",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.3",
+    "runtime-version": "6.4",
     "sdk": "org.kde.Sdk",
     "command": "mediawriter",
     "finish-args": [
@@ -27,9 +27,9 @@
             "config-opts": ["-DUSE_QT6=ON"],
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://github.com/FedoraQt/adwaita-qt/archive/1.4.1.tar.gz",
-                    "sha256": "834f2caaf031306b63b31ad6fec489482feda35e9aa260f205cbb976cde97b1d"
+                    "type": "git",
+                    "url": "https://github.com/FedoraQt/adwaita-qt.git",
+                    "tag": "1.4.2"
                 },
                 {
                     "type": "shell",
@@ -46,7 +46,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/FedoraQt/MediaWriter.git",
-                    "branch": "5.0.3"
+                    "tag": "5.0.4"
                 },
                 {
                     "type": "patch",
