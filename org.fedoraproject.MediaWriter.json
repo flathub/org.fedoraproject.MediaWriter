@@ -46,7 +46,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/FedoraQt/MediaWriter.git",
-                    "tag": "5.0.7"
+                    "tag": "5.0.8"
                 },
                 {
                     "type": "patch",
