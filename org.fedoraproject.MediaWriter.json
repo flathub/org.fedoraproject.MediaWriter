@@ -5,14 +5,15 @@
     "sdk": "org.kde.Sdk",
     "command": "mediawriter",
     "finish-args": [
-        "--socket=x11",
-        "--socket=wayland",
         "--device=all",
+        "--device=dri",
         "--filesystem=host",
+        "--socket=fallback-x11",
+        "--socket=wayland",
         "--share=network",
         "--share=ipc",
-        "--talk-name=org.freedesktop.Notifications",
-        "--system-talk-name=org.freedesktop.UDisks2"
+        "--system-talk-name=org.freedesktop.UDisks2",
+        "--talk-name=org.freedesktop.Notifications"
     ],
     "cleanup": [
         "/include",
@@ -28,7 +29,11 @@
                     "type": "git",
                     "url": "https://github.com/FedoraQt/MediaWriter.git",
                     "commit": "d4be1fbed43826ef7f683fd88d6f9c5e6f3be32e"
-                }
+                },
+                {
+                    "type": "patch",
+                    "path": "test.patch"
+                    }
             ]
         }
     ]

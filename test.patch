@@ -1,0 +1,13 @@
+diff --git a/src/app/main.cpp b/src/app/main.cpp
+index 6b7b0ef..1cfa525 100644
+--- a/src/app/main.cpp
++++ b/src/app/main.cpp
+@@ -51,7 +51,7 @@ Q_IMPORT_PLUGIN(QmlSettingsPlugin);
+ 
+ int main(int argc, char **argv)
+ {
+-    MessageHandler::install();
++    // MessageHandler::install();
+     CrashHandler::install();
+ 
+ #ifdef __linux
