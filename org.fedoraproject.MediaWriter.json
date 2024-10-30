@@ -27,7 +27,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/FedoraQt/MediaWriter.git",
-                    "tag": "5.1.2"
+                    "tag": "5.1.90"
                 }
             ]
         }
