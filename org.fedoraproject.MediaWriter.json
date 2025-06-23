@@ -1,7 +1,7 @@
 {
     "id": "org.fedoraproject.MediaWriter",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "mediawriter",
     "finish-args": [
@@ -28,12 +28,11 @@
                     "type": "git",
                     "url": "https://github.com/FedoraQt/MediaWriter.git",
                     "tag": "5.2.6",
+                    "commit": "32b825f0d8a3f8c7b2ee0f5025e7c46d83464b7c",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "([\\d.]+)$",
-                        "is-important": true
-                    },
-                    "commit": "32b825f0d8a3f8c7b2ee0f5025e7c46d83464b7c"
+                        "tag-pattern": "([\\d.]+)$"
+                    }
                 }
             ]
         }
