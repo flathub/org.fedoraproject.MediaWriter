@@ -33,7 +33,7 @@
                         "tag-pattern": "([\\d.]+)$",
                         "is-important": true
                     },
-                    "commit": "d7307c820abda2a64054fa4bd1a9b542d4cb17ba"
+                    "commit": "8d589061653a58726c8f82d650e0116ffb61d595"
                 }
             ]
         }
