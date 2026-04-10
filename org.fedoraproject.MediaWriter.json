@@ -27,8 +27,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/FedoraQt/MediaWriter.git",
-                    "tag": "5.3.0",
-                    "commit": "af9a8c693cb4a0eecbc9436bf6854e404a57841e",
+                    "tag": "5.3.1",
+                    "commit": "1b76904f303e1bb98c254aa9fcb7223d963bb962",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "([\\d.]+)$",
