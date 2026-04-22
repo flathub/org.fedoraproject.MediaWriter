@@ -12,7 +12,8 @@
         "--share=network",
         "--share=ipc",
         "--system-talk-name=org.freedesktop.UDisks2",
-        "--talk-name=org.freedesktop.Notifications"
+        "--talk-name=org.freedesktop.Notifications",
+        "--env=QML_DISABLE_DISK_CACHE=1"
     ],
     "cleanup": [
         "/include",
